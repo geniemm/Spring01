@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="car" class="com.care.di04.Controller02" /> 
+	<!-- car로 ctr1,ctr2둘다 상속받고있으니 bean에서 사용할 클래스만 변경해주면 된다. -->
+
+</beans>
